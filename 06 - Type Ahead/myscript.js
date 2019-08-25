@@ -19,6 +19,7 @@ function addResults() {
           </li>
         `;
       }).join('');
+      // ^ one big string instead of array 
       suggestions.innerHTML = html;
       /*
     filtered_array.forEach(city => {
